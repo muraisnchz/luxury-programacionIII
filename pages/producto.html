@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <title>Producto | Luxury</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+  <link rel="manifest" href="../assets/img/site.webmanifest">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&display=swap"
+    rel="stylesheet">
+  <meta name="keyword" content="oro 18k, collares, anillos, relojes, diamantes, lujo, joyeria de lujo, pulseras">
+</head>
+
+<body>
+  <!-- Skip to main content (accesibilidad) -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- Menú Hamburguesa -->
+  <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú de navegación">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
+  <!-- Overlay para cerrar menú -->
+  <div class="menu-overlay" id="menu-overlay"></div>
+
+  <!-- Menú Lateral -->
+  <nav class="sidebar-menu" id="sidebar-menu">
+    <div class="menu-header">
+      <h2>Luxury</h2>
+      <button class="menu-close" id="menu-close">×</button>
+    </div>
+    <ul class="menu-links">
+      <li><a href="../index.html" class="menu-link">🏠 Inicio</a></li>
+      <li><a href="./productos.html" class="menu-link">💎 Productos</a></li>
+      <li><a href="./contacto.html" class="menu-link">📞 Contacto</a></li>
+    </ul>
+    <div class="menu-footer">
+      <p>Joyas de lujo desde 2025</p>
+    </div>
+  </nav>
+
+  <header class="header">
+    <h1 class="titulo-pagina">Luxury</h1>
+    <nav class="nav">
+      <ul class="links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <section id="detalleProducto" class="detalle-producto" role="region" aria-label="Detalles del producto"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Luxury</p>
+  </footer>
+
+  <script src="../assets/js/menu.js"></script>
+  <script type="module" src="../assets/js/detalle.js"></script>
+</body>
+
+</html>

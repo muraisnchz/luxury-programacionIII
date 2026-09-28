@@ -1,0 +1,201 @@
+{
+  "usuarios": [
+    {
+      "nombre": "María Fernanda González",
+      "email": "maria.gonzalez@email.com",
+      "telefono": "+54 11 4567-8901",
+      "direccion": "Av. Santa Fe 2450",
+      "ciudad": "Buenos Aires",
+      "codigoPostal": "1425",
+      "provincia": "CABA"
+    },
+    {
+      "nombre": "Juan Carlos Martínez",
+      "email": "juan.martinez@correo.com",
+      "telefono": "+54 11 5234-6789",
+      "direccion": "Calle Corrientes 1234",
+      "ciudad": "Buenos Aires",
+      "codigoPostal": "1043",
+      "provincia": "CABA"
+    },
+    {
+      "nombre": "Lucía Beatriz Fernández",
+      "email": "lucia.fernandez@mail.com",
+      "telefono": "+54 351 423-5678",
+      "direccion": "Av. Colón 567",
+      "ciudad": "Córdoba",
+      "codigoPostal": "5000",
+      "provincia": "Córdoba"
+    },
+    {
+      "nombre": "Diego Alejandro Rodríguez",
+      "email": "diego.rodriguez@ejemplo.com",
+      "telefono": "+54 341 456-7890",
+      "direccion": "Bv. Oroño 890",
+      "ciudad": "Rosario",
+      "codigoPostal": "2000",
+      "provincia": "Santa Fe"
+    },
+    {
+      "nombre": "Carla Daniela López",
+      "email": "carla.lopez@email.com",
+      "telefono": "+54 261 423-4567",
+      "direccion": "Av. San Martín 1234",
+      "ciudad": "Mendoza",
+      "codigoPostal": "5500",
+      "provincia": "Mendoza"
+    },
+    {
+      "nombre": "Pablo Sebastián García",
+      "email": "pablo.garcia@correo.com",
+      "telefono": "+54 221 456-7890",
+      "direccion": "Calle 7 N° 850",
+      "ciudad": "La Plata",
+      "codigoPostal": "1900",
+      "provincia": "Buenos Aires"
+    },
+    {
+      "nombre": "Ana Victoria Pérez",
+      "email": "ana.perez@mail.com",
+      "telefono": "+54 381 423-5678",
+      "direccion": "Av. Aconquija 456",
+      "ciudad": "San Miguel de Tucumán",
+      "codigoPostal": "4000",
+      "provincia": "Tucumán"
+    },
+    {
+      "nombre": "Martín Eduardo Sánchez",
+      "email": "martin.sanchez@ejemplo.com",
+      "telefono": "+54 387 456-7890",
+      "direccion": "Calle Belgrano 678",
+      "ciudad": "Salta",
+      "codigoPostal": "4400",
+      "provincia": "Salta"
+    },
+    {
+      "nombre": "Florencia Soledad Romero",
+      "email": "florencia.romero@email.com",
+      "telefono": "+54 379 423-4567",
+      "direccion": "Av. 3 de Abril 234",
+      "ciudad": "Corrientes",
+      "codigoPostal": "3400",
+      "provincia": "Corrientes"
+    },
+    {
+      "nombre": "Nicolás Javier Díaz",
+      "email": "nicolas.diaz@correo.com",
+      "telefono": "+54 299 456-7890",
+      "direccion": "Av. Argentina 567",
+      "ciudad": "Neuquén",
+      "codigoPostal": "8300",
+      "provincia": "Neuquén"
+    },
+    {
+      "nombre": "Valentina Micaela Torres",
+      "email": "valentina.torres@mail.com",
+      "telefono": "+54 343 423-5678",
+      "direccion": "Calle Urquiza 890",
+      "ciudad": "Paraná",
+      "codigoPostal": "3100",
+      "provincia": "Entre Ríos"
+    },
+    {
+      "nombre": "Federico Matías Ruiz",
+      "email": "federico.ruiz@ejemplo.com",
+      "telefono": "+54 380 456-7890",
+      "direccion": "Av. Belgrano 123",
+      "ciudad": "La Rioja",
+      "codigoPostal": "5300",
+      "provincia": "La Rioja"
+    },
+    {
+      "nombre": "Camila Agustina Morales",
+      "email": "camila.morales@email.com",
+      "telefono": "+54 264 423-4567",
+      "direccion": "Av. Libertador 456",
+      "ciudad": "San Juan",
+      "codigoPostal": "5400",
+      "provincia": "San Juan"
+    },
+    {
+      "nombre": "Gonzalo Ezequiel Castro",
+      "email": "gonzalo.castro@correo.com",
+      "telefono": "+54 376 456-7890",
+      "direccion": "Av. Mitre 789",
+      "ciudad": "Posadas",
+      "codigoPostal": "3300",
+      "provincia": "Misiones"
+    },
+    {
+      "nombre": "Sofía Belén Vargas",
+      "email": "sofia.vargas@mail.com",
+      "telefono": "+54 362 423-5678",
+      "direccion": "Calle 9 de Julio 234",
+      "ciudad": "Resistencia",
+      "codigoPostal": "3500",
+      "provincia": "Chaco"
+    }
+  ],
+  "tarjetas": [
+    {
+      "numeroTarjeta": "4532 1234 5678 9010",
+      "nombreTarjeta": "MARIA F GONZALEZ",
+      "vencimiento": "12/26",
+      "cvv": "123"
+    },
+    {
+      "numeroTarjeta": "5425 2334 4567 8901",
+      "nombreTarjeta": "JUAN C MARTINEZ",
+      "vencimiento": "08/27",
+      "cvv": "456"
+    },
+    {
+      "numeroTarjeta": "4916 3445 5678 9012",
+      "nombreTarjeta": "LUCIA B FERNANDEZ",
+      "vencimiento": "03/28",
+      "cvv": "789"
+    },
+    {
+      "numeroTarjeta": "5234 5667 8901 2345",
+      "nombreTarjeta": "DIEGO A RODRIGUEZ",
+      "vencimiento": "11/26",
+      "cvv": "234"
+    },
+    {
+      "numeroTarjeta": "4532 6789 0123 4567",
+      "nombreTarjeta": "CARLA D LOPEZ",
+      "vencimiento": "05/27",
+      "cvv": "567"
+    },
+    {
+      "numeroTarjeta": "5425 7890 1234 5678",
+      "nombreTarjeta": "PABLO S GARCIA",
+      "vencimiento": "09/28",
+      "cvv": "890"
+    },
+    {
+      "numeroTarjeta": "4916 8901 2345 6789",
+      "nombreTarjeta": "ANA V PEREZ",
+      "vencimiento": "02/27",
+      "cvv": "345"
+    },
+    {
+      "numeroTarjeta": "5234 9012 3456 7890",
+      "nombreTarjeta": "MARTIN E SANCHEZ",
+      "vencimiento": "07/26",
+      "cvv": "678"
+    },
+    {
+      "numeroTarjeta": "4532 0123 4567 8901",
+      "nombreTarjeta": "FLORENCIA S ROMERO",
+      "vencimiento": "10/27",
+      "cvv": "901"
+    },
+    {
+      "numeroTarjeta": "5425 1234 5678 9012",
+      "nombreTarjeta": "NICOLAS J DIAZ",
+      "vencimiento": "04/28",
+      "cvv": "234"
+    }
+  ]
+}

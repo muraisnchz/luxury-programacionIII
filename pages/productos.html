@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <title>Productos | Luxury</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+  <link rel="manifest" href="../assets/img/site.webmanifest">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&display=swap"
+    rel="stylesheet">
+  <meta name="keyword" content="oro 18k, collares, anillos, relojes, diamantes, lujo, joyeria de lujo, pulseras">
+</head>
+
+<body>
+  <!-- Skip to main content (accesibilidad) -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- Menú Hamburguesa -->
+  <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú de navegación">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
+  <!-- Overlay para cerrar menú -->
+  <div class="menu-overlay" id="menu-overlay"></div>
+
+  <!-- Menú Lateral -->
+  <nav class="sidebar-menu" id="sidebar-menu">
+    <div class="menu-header">
+      <h2>Luxury</h2>
+      <button class="menu-close" id="menu-close">×</button>
+    </div>
+    <ul class="menu-links">
+      <li><a href="../index.html" class="menu-link">🏠 Inicio</a></li>
+      <li><a href="#" class="menu-link">💎 Productos</a></li>
+      <li><a href="./contacto.html" class="menu-link">📞 Contacto</a></li>
+    </ul>
+    <div class="menu-footer">
+      <p>Joyas de lujo desde 2025</p>
+    </div>
+  </nav>
+
+  <header class="header">
+
+    <h1 class="titulo-pagina">Luxury</h1>
+    <nav class="nav" aria-label="Navegar por el sitio">
+      <ul class="links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <h2 class="titulo-destacados">Catálogo completo</h2>
+    
+    <!-- Contenedor de búsqueda y filtros -->
+    <div class="search-filter-container">
+      <!-- Buscador -->
+      <div class="search-box">
+        <input 
+          type="text" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Buscar productos por nombre..." 
+          aria-label="Buscar productos"
+        >
+        <span class="search-icon" aria-hidden="true">🔍</span>
+      </div>
+      
+      <!-- Filtro de categorías -->
+      <div class="filter-box">
+        <label for="categorias">Categoría:</label>
+        <select name="categorias" id="categorias" class="filter-select" aria-label="Filtrar por categoría">
+          <option value="">Todas</option>
+          <option value="cadenas">Cadenas</option>
+          <option value="anillos">Anillos</option>
+          <option value="pendientes">Pendientes</option>
+          <option value="relojes">Relojes</option>
+        </select>
+      </div>
+
+      <!-- Ordenamiento -->
+      <div class="filter-box">
+        <label for="ordenamiento">Ordenar por:</label>
+        <select name="ordenamiento" id="ordenamiento" class="filter-select" aria-label="Ordenar productos">
+          <option value="default">Predeterminado</option>
+          <option value="precio-asc">Precio: Menor a Mayor</option>
+          <option value="precio-desc">Precio: Mayor a Menor</option>
+          <option value="nombre-asc">Nombre: A-Z</option>
+          <option value="nombre-desc">Nombre: Z-A</option>
+          <option value="stock-desc">Mayor Stock</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Información de resultados -->
+    <div id="results-info" class="results-info" style="display: none;"></div>
+
+    <div class="flex-contenedor-catalogo" id="catalogo"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Luxury</p>
+  </footer>
+
+  <script src="../assets/js/menu.js"></script>
+  <script type="module" src="../assets/js/catalogo.js"></script>
+</body>
+
+</html>

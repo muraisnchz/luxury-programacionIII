@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <title>Página de Contacto | Luxury </title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+  <link rel="manifest" href="../assets/img/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+
+  <meta name="keyword" content="oro 18k, collares, anillos, relojes, diamantes, lujo, joyeria de lujo, pulseras">
+</head>
+
+<body>
+  <!-- Skip to main content (accesibilidad) -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- Menú Hamburguesa -->
+  <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú de navegación">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
+  <!-- Overlay para cerrar menú -->
+  <div class="menu-overlay" id="menu-overlay"></div>
+
+  <!-- Menú Lateral -->
+  <nav class="sidebar-menu" id="sidebar-menu">
+    <div class="menu-header">
+      <h2>Luxury</h2>
+      <button class="menu-close" id="menu-close">×</button>
+    </div>
+    <ul class="menu-links">
+      <li><a href="../index.html" class="menu-link">🏠 Inicio</a></li>
+      <li><a href="./productos.html" class="menu-link">💎 Productos</a></li>
+      <li><a href="#" class="menu-link">📞 Contacto</a></li>
+    </ul>
+    <div class="menu-footer">
+      <p>Joyas de lujo desde 2025</p>
+    </div>
+  </nav>
+
+  <header class="header">
+    <h1 class="titulo-pagina">Luxury</h1>
+    <nav class="nav">
+      <ul class="links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+
+    <div>
+      <h1 class="row justify-content-center">Contacto</h1>
+    </div>
+
+    <p><strong>¿Tenés alguna duda o consulta? Completá el formulario. Te responderemos a la brevedad.</strong></p>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <!-- Inicio del formulario de contacto -->
+        <div class="formulario border rounded-3 p-4">
+
+
+          <form novalidate>
+            <!-- Campo de nombre -->
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese un nombre" required
+                minlength="3" maxlength="50" pattern="[A-Za-z\s]+" title="Solo se admiten letras y espacios.">
+            </div>
+
+            <!-- Campo de correo electrónico -->
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese un e-mail" required>
+            </div>
+
+            <!-- Campo de asunto -->
+            <div class="mb-3">
+              <label for="asunto" class="form-label">Asunto:</label>
+              <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Ingrese un asunto"
+                required>
+            </div>
+
+            <!-- Campo de mensaje -->
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje:</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribe un mensaje"
+                required minlength="10"></textarea>
+            </div>
+
+            <!-- Botón de envío -->
+            <div class="d-grid">
+              <button type="submit" class="btn btn-violeta">Enviar</button>
+            </div>
+          </form>
+          <!-- Fin del formulario -->
+        </div>
+
+        <!-- Accordion -->
+        <div class="accordion row justify-content-center" id="accordionRedes">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="false" aria-controls="collapseOne">
+                Nuestras redes sociales
+              </button>
+            </h2>
+
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionRedes">
+              <div class="accordion-body">
+
+                <!-- Contenedor de las tres cards -->
+                <div class="row g-3">
+
+                  <!-- Card 1 -->
+                  <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                      <div class="card-body">
+                        <h5 class="card-title">Facebook 👤</h5>
+                        <p class="card-text">/luxury.joyeria</p>
+                        <a href="#" class="btn btn-primary">Ir</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 2 -->
+                  <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                      <div class="card-body">
+                        <h5 class="card-title">Instagram 📷</h5>
+                        <p class="card-text">@luxury.joyeria</p>
+                        <a href="#" class="btn btn-primary">Ir</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 3 -->
+                  <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                      <div class="card-body">
+                        <h5 class="card-title">TikTok 📹</h5>
+                        <p class="card-text">@luxury.joyeria</p>
+                        <a href="#" class="btn btn-primary">Ir</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- Fin de las 3 cards -->
+
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2025 Luxury</p>
+  </footer>
+
+  <script src="../assets/js/menu.js"></script>
+  <script src="../assets/js/validacion-contacto.js"></script>
+</body>
+
+</html>
